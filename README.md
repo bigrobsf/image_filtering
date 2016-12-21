@@ -1,14 +1,14 @@
 # Image filtering through algorithm manipulation
 ## Q3 Galvanize project (Rob, Tommy, Paris)
-The objective of this project is to create an online tool of image filtering through the use of algorithms
+The objective of this project is to create an online tool for image filtering and generation through the use of algorithms
 
 ### Program features
-The program needs to allow the user the following actions:
-- Open images from his hard drive
+The program will allow the following actions:
+- Open images from the hard drive
 - Open images from a URL
-- Be able to select between two options. Editing or applying "art" on an image:
-- save his modified image in his hard drive
-- Be able to select on the parameters of the filtering
+- Be able to select between two options. Applying filters to an image or generating "art"
+- save the modified or generated image in the hard drive
+- allow user to specify the parameters used to generate the algoritmic art
 
 The features that the program needs to offer are:
 - Create a negative of the imported image
@@ -17,9 +17,11 @@ The features that the program needs to offer are:
 
 Nice to have features:
 - Zooming of the image
+- Be able to select on the parameters of the filtering
 - drag bars that allow the different feature changes
 
-### Things to work on
+### Notes
+Items to research:
 - Research on how to use the `<canvas>` tag in order to manipulate images wrapped around it
 - Art:
 https://labs.ideo.com/2014/06/04/painting-with-code/
